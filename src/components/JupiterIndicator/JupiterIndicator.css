@@ -1,0 +1,13 @@
+.glowing-icon {
+  margin-left: 150px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  background-image: url('../../static/png/LOGO_JUPITER_DARK.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.indexed {
+  background-image: url('../../static/png/LOGO_JUPITER_LIGHT.png');
+}
