@@ -1,43 +1,24 @@
 <div align="center">
-    <h1>⚡Invariant webapp - Solana⚡</h1>
+    <h1>⚡Invariant webapp - Task 3 - Frontend development (external service integration)⚡</h1>
 </div>
 
-Invariant is a decentralized exchange <b>(DEX)</b> app built on the <b>Solana blockchain</b>, offering advanced features such as <b>concentrated liquidity</b> for maximum capital efficiency and lower trading fees. It enables users to swap tokens, and create and manage liquidity pools within specific price ranges.
-This frontend repository provides the user interface for interacting with the <b>Invariant protocol.</b>
+## 🔨 What did I add
 
-## 🔨 Getting Started
+### Components added by me
 
-### Prerequisites
+- JupiterIndicator.tsx (src/components/JupiterIndicator/JupiterIndicator.tsx)
+- JupiterIndicator.css (src/components/JupiterIndicator/JupiterIndicator.css)
+- OpenNewPosition.tsx (src/components/OpenNewPosition/OpenNewPosition.tsx)
 
-- NodeJs, version 20+ ([NodeJs](https://nodejs.org/en/download/package-manager))
-- npm ([npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
+### Adding axios
 
-### Build webapp
-
-- Clone repository
+- I have decided to use axios for HTTP requests
 
 ```bash
-git clone https://github.com/invariant-labs/webapp.git
+npm install axios
 ```
 
-- Install dependencies
-
-```bash
-npm i
-```
-
-- Run on local server
-
-```bash
-npm run vite
-```
-
-#### Run storybook
-
-Storybook allows one to check all components and test them in an independent environment.
-
-- Run storybook
-
-```bash
-npm run storybook
-```
+<h3>Short description</h3>
+<p>The application is fully functional (as expected in the PDF with the tasks). When a pool is indexed by Jupiter, it is indicated by a glowing Jupiter icon. If a pool is not indexed by Jupiter, the icon remains unlit.</p>
+<h4>However, when changing or selecting for the first time specific market, the app needs 3-5 seconds to change to icon to glowing or vice versa.</h4>
+<b>So please be patient and wait 3-5 seconds for the program to search the indexes and change the icon<b>
