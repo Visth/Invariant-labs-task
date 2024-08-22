@@ -20,5 +20,5 @@ npm install axios
 
 <h3>Short description</h3>
 <p>The application is fully functional (as expected in the PDF with the tasks). When a pool is indexed by Jupiter, it is indicated by a glowing Jupiter icon. If a pool is not indexed by Jupiter, the icon remains unlit.</p>
-<h4>However, when changing or selecting for the first time specific market, the app needs 3-5 seconds to change to icon to glowing or vice versa.</h4>
+<h3>However, when changing or selecting for the first time specific market, the app needs 3-5 seconds to change to icon to glowing or vice versa.</h3>
 <b>So please be patient and wait 3-5 seconds for the program to search the indexes and change the icon<b>
