@@ -23,4 +23,5 @@ npm install axios
 <h3>However, when changing or selecting the specific market, the app needs around 3-5 seconds to change the icon to glowing or vice versa.</h3>
 <b>So please be patient and wait 3-5 seconds for the program to search the indexes and change the icon.<b>
 <br>
+<br>
 <p>Thanks for the task, Filip Bereszyński</p>
